@@ -180,6 +180,7 @@ switch (ENVIRONMENT)
 /*
  * ---------------------------------------------------------------
  *  Resolve the system path for increased reliability
+ *  解决系统路径，提高可靠性
  * ---------------------------------------------------------------
  */
 
@@ -306,3 +307,17 @@ switch (ENVIRONMENT)
  * And away we go...
  */
 require_once BASEPATH.'core/CodeIgniter.php';
+
+/**
+    $_temp = "/home/www/CodeIgniter/application"
+    $application_folder = "/home/www/CodeIgniter/application"
+    $system_path = "/home/www/CodeIgniter/system/"
+    $view_folder = ""
+    $_SERVER = {array} [34]
+    ENVIRONMENT = "development"
+    SELF = "index.php"
+    BASEPATH = "/home/www/CodeIgniter/system/"
+    FCPATH = "/home/www/CodeIgniter/"
+    SYSDIR = "system"
+    APPPATH = "/home/www/CodeIgniter/application/"
+ */
